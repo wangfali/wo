@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A3E9E288-B0EC-45DB-9F30-6A58D7718E2B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WinPlatProject</RootNamespace>
+    <AssemblyName>WinPlatProject</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NPOI, Version=2.0.6.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="addClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addClass.Designer.cs">
+      <DependentUpon>addClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adddepartment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adddepartment.Designer.cs">
+      <DependentUpon>adddepartment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addlist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addlist.Designer.cs">
+      <DependentUpon>addlist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addmajor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addmajor.Designer.cs">
+      <DependentUpon>addmajor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addmark.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addmark.Designer.cs">
+      <DependentUpon>addmark.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addrole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addrole.Designer.cs">
+      <DependentUpon>addrole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addstudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addstudent.Designer.cs">
+      <DependentUpon>addstudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addteacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addteacher.Designer.cs">
+      <DependentUpon>addteacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adduser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adduser.Designer.cs">
+      <DependentUpon>adduser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class.Designer.cs">
+      <DependentUpon>Class.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classroom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classroom.Designer.cs">
+      <DependentUpon>Classroom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Course.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Course.Designer.cs">
+      <DependentUpon>Course.cs</DependentUpon>
+    </Compile>
+    <Compile Include="deletedepartment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deletedepartment.Designer.cs">
+      <DependentUpon>deletedepartment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Department.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Department.Designer.cs">
+      <DependentUpon>Department.cs</DependentUpon>
+    </Compile>
+    <Compile Include="departmentview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="departmentview.Designer.cs">
+      <DependentUpon>departmentview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="import.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="import.Designer.cs">
+      <DependentUpon>import.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Computer.cs" />
+    <Compile Include="IComputeArea.cs" />
+    <Compile Include="IComputeCube.cs" />
+    <Compile Include="Major.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Major.Designer.cs">
+      <DependentUpon>Major.cs</DependentUpon>
+    </Compile>
+    <Compile Include="manageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="manageForm.Designer.cs">
+      <DependentUpon>manageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="newmanageform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newmanageform.Designer.cs">
+      <DependentUpon>newmanageform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pleaseinputuserid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pleaseinputuserid.Designer.cs">
+      <DependentUpon>pleaseinputuserid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StudentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentForm.Designer.cs">
+      <DependentUpon>StudentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Studnetform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Studnetform.Designer.cs">
+      <DependentUpon>Studnetform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="teacherForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="teacherForm.Designer.cs">
+      <DependentUpon>teacherForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="teacherfrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="teacherfrom.Designer.cs">
+      <DependentUpon>teacherfrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update.Designer.cs">
+      <DependentUpon>update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="util\DataTablePrint.cs" />
+    <Compile Include="util\NPOIHelper.cs" />
+    <EmbeddedResource Include="addClass.resx">
+      <DependentUpon>addClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adddepartment.resx">
+      <DependentUpon>adddepartment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addlist.resx">
+      <DependentUpon>addlist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addmajor.resx">
+      <DependentUpon>addmajor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addmark.resx">
+      <DependentUpon>addmark.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addrole.resx">
+      <DependentUpon>addrole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addstudent.resx">
+      <DependentUpon>addstudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addteacher.resx">
+      <DependentUpon>addteacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adduser.resx">
+      <DependentUpon>adduser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deletedepartment.resx">
+      <DependentUpon>deletedepartment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="departmentview.resx">
+      <DependentUpon>departmentview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="import.resx">
+      <DependentUpon>import.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="manageForm.resx">
+      <DependentUpon>manageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newmanageform.resx">
+      <DependentUpon>newmanageform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pleaseinputuserid.resx">
+      <DependentUpon>pleaseinputuserid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="StudentForm.resx">
+      <DependentUpon>StudentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Studnetform.resx">
+      <DependentUpon>Studnetform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="teacherfrom.resx">
+      <DependentUpon>teacherfrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update.resx">
+      <DependentUpon>update.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLLProject\BLLProject.csproj">
+      <Project>{8aaedfb1-f3d5-4786-a808-3c2d98544210}</Project>
+      <Name>BLLProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ModelProject\ModelProject.csproj">
+      <Project>{0c7de2f2-df87-4350-863c-6c96effbf9bd}</Project>
+      <Name>ModelProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WPHControlProject\WPHControlProject.csproj">
+      <Project>{8fab8824-1990-4fc6-93dd-5ae01445cebf}</Project>
+      <Name>WPHControlProject</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

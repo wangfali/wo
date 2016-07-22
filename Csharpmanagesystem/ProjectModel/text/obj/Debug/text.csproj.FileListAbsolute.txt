@@ -1,0 +1,5 @@
+E:\案例模板(C#)\ProjectModel\text\bin\Debug\text.exe.config
+E:\案例模板(C#)\ProjectModel\text\bin\Debug\text.exe
+E:\案例模板(C#)\ProjectModel\text\bin\Debug\text.pdb
+E:\案例模板(C#)\ProjectModel\text\obj\Debug\text.exe
+E:\案例模板(C#)\ProjectModel\text\obj\Debug\text.pdb

@@ -1,0 +1,9 @@
+E:\江西联微软件有限公司\教学工作\江西机电职业技术学院\教学案例\ProjectModel\BLLProject\bin\Debug\BLLProject.dll
+E:\江西联微软件有限公司\教学工作\江西机电职业技术学院\教学案例\ProjectModel\BLLProject\bin\Debug\BLLProject.pdb
+E:\江西联微软件有限公司\教学工作\江西机电职业技术学院\教学案例\ProjectModel\BLLProject\bin\Debug\DALlProject.dll
+E:\江西联微软件有限公司\教学工作\江西机电职业技术学院\教学案例\ProjectModel\BLLProject\bin\Debug\ModelProject.dll
+E:\江西联微软件有限公司\教学工作\江西机电职业技术学院\教学案例\ProjectModel\BLLProject\bin\Debug\DALlProject.pdb
+E:\江西联微软件有限公司\教学工作\江西机电职业技术学院\教学案例\ProjectModel\BLLProject\bin\Debug\ModelProject.pdb
+E:\江西联微软件有限公司\教学工作\江西机电职业技术学院\教学案例\ProjectModel\BLLProject\obj\Debug\BLLProject.csprojResolveAssemblyReference.cache
+E:\江西联微软件有限公司\教学工作\江西机电职业技术学院\教学案例\ProjectModel\BLLProject\obj\Debug\BLLProject.dll
+E:\江西联微软件有限公司\教学工作\江西机电职业技术学院\教学案例\ProjectModel\BLLProject\obj\Debug\BLLProject.pdb

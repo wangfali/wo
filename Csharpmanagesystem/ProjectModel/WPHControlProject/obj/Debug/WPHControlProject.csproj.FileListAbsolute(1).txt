@@ -1,0 +1,8 @@
+E:\江西联微软件有限公司\教学工作\江西机电职业技术学院\教学案例\ProjectModel\WPHControlProject\bin\Debug\WPHControlProject.dll
+E:\江西联微软件有限公司\教学工作\江西机电职业技术学院\教学案例\ProjectModel\WPHControlProject\bin\Debug\WPHControlProject.pdb
+E:\江西联微软件有限公司\教学工作\江西机电职业技术学院\教学案例\ProjectModel\WPHControlProject\obj\Debug\WPHControlProject.csprojResolveAssemblyReference.cache
+E:\江西联微软件有限公司\教学工作\江西机电职业技术学院\教学案例\ProjectModel\WPHControlProject\obj\Debug\WPH.Controls.Accordion.resources
+E:\江西联微软件有限公司\教学工作\江西机电职业技术学院\教学案例\ProjectModel\WPHControlProject\obj\Debug\WPHControlProject.Properties.Resources.resources
+E:\江西联微软件有限公司\教学工作\江西机电职业技术学院\教学案例\ProjectModel\WPHControlProject\obj\Debug\WPHControlProject.csproj.GenerateResource.Cache
+E:\江西联微软件有限公司\教学工作\江西机电职业技术学院\教学案例\ProjectModel\WPHControlProject\obj\Debug\WPHControlProject.dll
+E:\江西联微软件有限公司\教学工作\江西机电职业技术学院\教学案例\ProjectModel\WPHControlProject\obj\Debug\WPHControlProject.pdb
