@@ -57,20 +57,14 @@ public class SavePerson {
 			throws Exception{
 		SAXReader saxReader=new SAXReader();
 		Document document = saxReader.read("E://person.xml");
-		Element node =(Element)document.selectSingleNode("//person[@id="+Integer.toBinaryString(id)+"]");
-		node.remove(node);
+		Element node =(Element)document.selectSingleNode("//person[@id="+Integer.toString(id)+"]");
+		node.detach();
 		String save = save(id, name, phone, qq, email, age, sex);
 		if(save!=null){
 			System.out.println("修改失败！"+save);
 		}else{
 			System.out.println("修改成功！");
 		}
-		OutputStream out=new FileOutputStream(new File("E://person.xml"));
-		OutputFormat format=OutputFormat.createPrettyPrint();
-		format.setEncoding("UTF-8");
-		XMLWriter writer=new XMLWriter(out, format);
-		writer.write(document);
-		writer.close();
 	}
 
 	public static void delete(String id)throws Exception{
